@@ -1,0 +1,57 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-form input {
+  font-family: "Arial san-serif";
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+  height: 20px;
+  outline: none;
+}
+.user-form label{
+  font-family: "Arial san-serif";
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  font-family: "Arial san-serif";
+}
+.submit-btn:hover{
+  background-color: blue;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+  font-family: "Arial san-serif";
+}
+.cancel-btn:hover{
+  background-color: red;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+
+  .user-form input {
+    width: 100%;
+  }
+}
